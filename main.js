@@ -6,9 +6,7 @@ function displaySum () {
   ('secondNum') .innerHTML) ;
 
 let total = firstNum + secondNum;
-document.getElementById ('answer').innerHTML = ` $
-{firstNum} + $ {secondNum}, equals to $ {total}` ; 
+document.getElementById ('answer').innerHTML = ` ${firstNum} + ${secondNum}, equals to ${total}` ; 
  }
 
- DocumentFragment.getElementById('sumButton').addEventListener
- ("click", displaySum) ;
+document.getElementById('sumButton').addEventListener("click",displaySum) ;
